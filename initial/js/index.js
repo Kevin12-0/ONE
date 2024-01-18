@@ -1,6 +1,6 @@
 console.log("Hola mundo"); /* no afecta usar ; 
                         pero, es una buena practica de programación*/
-let numeroSecreto = 6;
+let numeroSecreto = Math.floor(Math.random() * 10);
 let numeroUsuairo;
 let intentos = 1;
 /* let palabraVeces = "vez"; */
@@ -38,7 +38,9 @@ alert(numeroUsuairo); */
     intentos++;
     /* delimitar el numero de intetos */
     if (intentos > maximosIntentos) {
-      alert("limite de intentos alacanzados");
+      alert(
+        `Limite alazando de intentos, el numero secreto era: ${numeroSecreto}`
+      );
       break;
     }
     palabraVeces = "veces";
