@@ -2,13 +2,16 @@ console.log("Hola mundo"); /* no afecta usar ;
                         pero, es una buena practica de programación*/
 let numeroSecreto = 6;
 let numeroUsuairo;
-let intentos = 0;
-let palabraVeces = "vez";
+let intentos = 1;
+/* let palabraVeces = "vez"; */
+let maximosIntentos = 3;
 /* mientras no se cumpla se repite el juego */
 while (numeroUsuairo != numeroSecreto) {
   /* prompt insertal informacion */
   /* nomenclatura camel case para variables */
-  numeroUsuairo = prompt("Dame un numero entre 1 y 10: ");
+  numeroUsuairo = prompt(
+    "Dame un numero entre 1 y 10, solo tienes tres intentos: "
+  );
   /* /* forma 1 
 alert(numeroUsuairo); */
 
@@ -19,7 +22,9 @@ alert(numeroUsuairo); */
 
   if (numeroUsuairo == numeroSecreto) {
     alert(
-      `el numero es correcto: ${numeroUsuairo}, lo hiciste en ${intentos} veces`
+      `el numero es correcto: ${numeroUsuairo}, lo hiciste en ${intentos} ${
+        intentos == 1 ? "vez" : "veces"
+      } `
     );
     /* si la condicion no se cuimple */
     break;
@@ -31,6 +36,11 @@ alert(numeroUsuairo); */
     }
     /* contador incremental si el resultado es incorrecto */
     intentos++;
+    /* delimitar el numero de intetos */
+    if (intentos > maximosIntentos) {
+      alert("limite de intentos alacanzados");
+      break;
+    }
     palabraVeces = "veces";
     /* alert(`el numero ${numeroUsuairo} es incorrecto`); */
   }
