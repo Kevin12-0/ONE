@@ -1,6 +1,6 @@
 console.log("Hola mundo"); /* no afecta usar ; 
                         pero, es una buena practica de programación*/
-let numeroSecreto = Math.floor(Math.random() * 10);
+let numeroSecreto = Math.floor(Math.random() * 10) + 1;
 let numeroUsuairo;
 let intentos = 1;
 /* let palabraVeces = "vez"; */
