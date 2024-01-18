@@ -11,5 +11,4 @@ let numeroDeVentas = 50;
 let saldoDisponible = 1000;
 
 /* alert */
-alert("error, completa todos los campos");
-
+alert('error, completa todos los campos')
