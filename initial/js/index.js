@@ -43,7 +43,6 @@ alert(numeroUsuairo); */
       );
       break;
     }
-    palabraVeces = "veces";
     /* alert(`el numero ${numeroUsuairo} es incorrecto`); */
   }
 }
