@@ -1,6 +1,7 @@
 console.log("Hola mundo"); /* no afecta usar ; 
                         pero, es una buena practica de programación*/
-let numeroSecreto = Math.floor(Math.random() * 10) + 1;
+let numeroLimite = parseInt(prompt("Inserta el numero maximo para el rango:"));
+let numeroSecreto = Math.floor(Math.random() * numeroLimite) + 1;
 let numeroUsuairo;
 let intentos = 1;
 /* let palabraVeces = "vez"; */
@@ -9,9 +10,7 @@ let maximosIntentos = 3;
 while (numeroUsuairo != numeroSecreto) {
   /* prompt insertal informacion */
   /* nomenclatura camel case para variables */
-  numeroUsuairo = prompt(
-    "Dame un numero entre 1 y 10, solo tienes tres intentos: "
-  );
+  numeroUsuairo = prompt(`Dame un numero entre 1 y ${numeroLimite} :`);
   /* /* forma 1 
 alert(numeroUsuairo); */
 
