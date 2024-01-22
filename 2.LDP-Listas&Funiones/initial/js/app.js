@@ -1,11 +1,13 @@
-/* esto es para generar texto seleccionando una equiqueta */
-let titulo = document.querySelector("h1");
-titulo.innerHTML = "Juego del numero secreto";
-/* esto es para generara texto seleccionando una etiqueta */
-let parrafo = document.querySelector("p");
-parrafo.innerHTML = "Indica un numero del 1 al 10";
-
 /* crear una funcion */
 function intentoDeUsuario() {
   alert("Click desde el boton");
 }
+
+function asignarTextoElemento(elemento, texto) {
+  /* esto es para generar texto seleccionando una equiqueta */
+  let titulo = document.querySelector(elemento);
+  titulo.innerHTML = texto;
+}
+/* llamar a funcion */
+asignarTextoElemento("h1", "Juego del numero secreto!");
+asignarTextoElemento("p", "Indica un nuemro del 1 al 10");
