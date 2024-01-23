@@ -1,0 +1,32 @@
+p {
+    /* aliniar al centro */
+    text-align: center;
+    /* color de fondo */
+    background: antiquewhite;
+}
+
+h1 {
+    background: #CCCCCC;
+    border: 10px;
+    margin: 40px;
+}
+
+body {
+    background: #CCCCCC;
+}
+
+em strong {
+    /* color de letra */
+    color: blue;
+}
+
+/* para id */
+#mission {
+    font-size: 20px;
+}
+
+.image {
+    width: 90%;
+    height: 80%;
+    align-items: center;
+}
