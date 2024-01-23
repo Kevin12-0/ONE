@@ -13,12 +13,23 @@
             <h1></h1>
             <p class="text_parrafo"></p>
           </div>
-          <input type="number" min="1" max="10" id="valorUsuario" class="container_input" />
+          <input
+            type="number"
+            min="1"
+            max="10"
+            id="valorUsuario"
+            class="container_input"
+          />
           <div class="chute container_botones">
             <button onclick="verificarIntento()" class="container_boton">
               Intentar
-            </button>
-            <button class="container_boton" id="reiniciar" disabled>
+            </button>        
+            <button
+              onclick="reiniciarJuego()"
+              class="container_boton"
+              id="reiniciar"
+              disabled
+            >
               Nuevo Juego
             </button>
           </div>
