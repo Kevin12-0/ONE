@@ -5,10 +5,10 @@ p {
     background: antiquewhite;
 }
 
-h1 {
-    background: #CCCCCC;
-    border: 10px;
-    margin: 40px;
+.titulo_principal{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
@@ -25,8 +25,39 @@ em strong {
     font-size: 20px;
 }
 
+/* para clase */
 .image {
     width: 90%;
     height: 80%;
     align-items: center;
+}
+
+.items {
+    font-style: italic;
+}
+
+.container {
+    background: azure;
+}
+
+
+.container_diferencial {
+    background: white;
+    padding: 20px;
+}
+
+.imagenDiferenciales {
+    width: 25%;
+    padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    margin-right: 15%;
+}
+
+.titulo_centro {
+    text-align: center;
 }
