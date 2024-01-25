@@ -142,3 +142,22 @@ form legend {
 .checkbox {
     margin: 20px 0;
 }
+
+.button-is-primary {
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: azure;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    /* tiempo de transiccion de cambio de color */
+    transition: 1s;
+    cursor: pointer;
+}
+
+.button-is-primary:hover {
+    background-color: #D35400;
+
+}
