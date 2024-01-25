@@ -2,46 +2,64 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Barberia de Alura</title>
-  <link rel="stylesheet" href="css/styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/productos.css">
 </head>
 
 <body>
+  <!-- encabezado -->
+  <header>
+    <div class="box">
+      <!-- logo -->
+      <h1> <img src="img/productos/logo.png"></h1>
+      <!-- panel de navegacion -->
+      <nav>
+        <!-- lista del menu -->
+        <ul class="navegacion">
+          <!-- rederigir a paginas externas -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="contacto.html">Contactos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <img src="img/banner.jpeg" class="image"></img>
+  <main>
+    <section class="container">
 
-  <div>
-    <header>
-      <h1 class="titulo_principal">Barberia Alura</h1>
-    </header>
-  </div>
-  <!-- dividir secciones -->
-  <div class="container">
-    <img src="img/banner.jpeg" class="image"></img>
-    <h2 class="titulo_centro">Sobre la Barberia</h2>
-    <p>Ubicada en el corazon de la ciudad de <strong>Mexico</strong></p>
-    <p id="mision">
-      <em>Mision:
-        <strong>Ser la mejor barberia para nuestros clientes</strong></em>
-    </p>
-    <p class="parrafo">
-      Ofrecemos profesionales experimentados que están constantemente observando
-      los cambios y movimiento en el mundo de la moda, para así ofrecer a
-      nuestros clientes las últimas tendencias. El atendimiento posee un padrón
-      de excelencia y agilidad, garantizando calidad y satisfacción de nuestros
-      clientes.
-    </p>
-  </div>
-  <div class="container_diferencial">
-    <h2>difirenciales</h2>
-    <ul> <!-- lista no ordenada -->
-      <li class="list">atencion personalisada a los clientes</li> <!-- para poner dentro de la lista como item -->
-      <li class="list">localizacion</li>
-      <li class="list">Profecionales calificados</li>
-    </ul>
-    <img src="img/barbero.jpeg" class="imagenDiferenciales">
-  </div>
-
+      <h2 class="titulo_principal">Sobre la Barberia</h2>
+      <p>Ubicada en el corazon de la ciudad de <strong>Mexico</strong></p>
+      <p id="mision">
+        <em>Mision:
+          <strong>Ser la mejor barberia para nuestros clientes</strong></em>
+      </p>
+      <p class="parrafo">
+        Ofrecemos profesionales experimentados que están constantemente observando
+        los cambios y movimiento en el mundo de la moda, para así ofrecer a
+        nuestros clientes las últimas tendencias. El atendimiento posee un padrón
+        de excelencia y agilidad, garantizando calidad y satisfacción de nuestros
+        clientes.
+      </p>
+    </section>
+    <section class="container_diferencial">
+      <h2 class="titulo_principal">Difirenciales</h2>
+      <ul> <!-- lista no ordenada -->
+        <li class="list">atencion personalisada a los clientes</li> <!-- para poner dentro de la lista como item -->
+        <li class="list">localizacion</li>
+        <li class="list">Profecionales calificados</li>
+      </ul>
+      <img src="img/barbero.jpeg" class="imagenDiferenciales">
+    </section>
+  </main>
+  <!-- pie de pagina -->
+  <footer>
+    <img src="img/productos/logo-blanco.png">
+    <p class="copy">&copy Copyright Barberia Alura 2020</p>
+  </footer>
 </body>
 
 </html>
