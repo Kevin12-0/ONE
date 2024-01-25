@@ -163,3 +163,19 @@ form legend {
     /* girar por medio por grados */
     /* transform: rotate(70deg);*/
 }
+
+table {
+    margin: 40px 40px;
+}
+
+thead {
+    background: #5D6D7E;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 8px 15px;
+}
