@@ -153,11 +153,13 @@ form legend {
     border: none;
     border-radius: 5px;
     /* tiempo de transiccion de cambio de color */
-    transition: 1s;
+    transition: 1s all;
     cursor: pointer;
 }
 
 .button-is-primary:hover {
     background-color: #D35400;
-
+    transform: scale(1.20);
+    /* girar por medio por grados */
+    /* transform: rotate(70deg);*/
 }
