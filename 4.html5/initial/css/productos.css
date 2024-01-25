@@ -5,15 +5,15 @@ body {
 }
 
 /* seleccionar uno en especidfico */
-main>p {
+/* main>p {
     background: red;
-}
+} */
 
 /* selecciona un elemento despues de un elemento */
 
-img + p{
+/* img + p{
     background: #D35400;
-}
+} */
 
 header {
     background-color: #BBBBBB;
