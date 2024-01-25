@@ -31,11 +31,35 @@
     <main>
         <form>
             <label for="nombreApellido">Nombre y Apellidos</label>
-            <input type="text" id="nombreApellido">
+            <input type="text" id="nombreApellido" class="datos">
             <label for="correoElectronico">Correo Electronico</label>
-            <input type="email" id="correoElectronico">
+            <input type="email" id="correoElectronico" class="datos">
             <label for="telefono">Télefono</label>
-            <input type="number" id="telefono">
+            <input type="tel" id="telefono" class="datos">
+            <label for="mensaje">Mensaje</label>
+            <textarea cols="70" rows="10" id="mensaje" class="datos"></textarea>
+
+            <div>
+                <p>¿Como le gustaraia ser contactado?</p>
+                <label for="radio-email"><input type="radio" value="Email" id="radio-email"
+                        name="contacto">email</label>
+
+                <label for="radio-Telefono"><input type="radio" value="Email" id="radio-Telefono"
+                        name="contacto">Telefono</label>
+
+                <label for="radio-Waths"><input type="radio" value="Email" id="radio-Whats"
+                        name="contacto">Whats</label>
+
+            </div>
+            <div>
+                <select>
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>
+            </div>
+
+            <label class="label"><input type="checkbox" class="checkbox">Le gustaria recibir novedades</label>
             <input type="submit" value="Enviar Formulario">
         </form>
     </main>
