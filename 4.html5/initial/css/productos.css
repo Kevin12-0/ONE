@@ -4,6 +4,17 @@ body {
     font-style: normal;
 }
 
+/* seleccionar uno en especidfico */
+main>p {
+    background: red;
+}
+
+/* selecciona un elemento despues de un elemento */
+
+img + p{
+    background: #D35400;
+}
+
 header {
     background-color: #BBBBBB;
     padding: 20px 0;
@@ -278,4 +289,8 @@ th {
 
 p::first-line {
     font-style: italic;
+}
+
+.list::before {
+    content: "★";
 }
