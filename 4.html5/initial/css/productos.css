@@ -207,6 +207,8 @@ th {
     margin: 0 0 1cm;
     clear: left;
     color: black;
+    /* sombra en texto */
+    /* text-shadow: 2px 2px red; */
 }
 
 .container {
@@ -242,9 +244,11 @@ th {
 .imagenDiferenciales {
     width: 60%;
     transition: 0.4ms;
+    /* sombra en imagen */
+    box-shadow: 15px 15px 30px 25px #000000;
 }
 
-.imagenDiferenciales:hover{
+.imagenDiferenciales:hover {
     opacity: 50%;
 }
 
