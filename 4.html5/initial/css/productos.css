@@ -1,3 +1,9 @@
+body {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 header {
     background-color: #BBBBBB;
     padding: 20px 0;
@@ -192,6 +198,7 @@ th {
     font-size: 2cm;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0 0 1cm;
+    clear: left;
 }
 
 .container p {
@@ -208,4 +215,10 @@ th {
 
 .imagenDiferenciales {
     width: 60%;
+}
+
+.utencilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
 }
