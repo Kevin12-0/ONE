@@ -206,7 +206,7 @@ th {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0 0 1cm;
     clear: left;
-    background-color: #5D6D7E;
+    color: black;
 }
 
 .container {
@@ -241,6 +241,11 @@ th {
 
 .imagenDiferenciales {
     width: 60%;
+    transition: 0.4ms;
+}
+
+.imagenDiferenciales:hover{
+    opacity: 50%;
 }
 
 .mapa p {
