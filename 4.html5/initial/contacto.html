@@ -31,13 +31,13 @@
     <main>
         <form>
             <label for="nombreApellido">Nombre y Apellidos</label>
-            <input type="text" id="nombreApellido" class="datos">
+            <input type="text" id="nombreApellido" class="datos" required>
             <label for="correoElectronico">Correo Electronico</label>
-            <input type="email" id="correoElectronico" class="datos">
+            <input type="email" id="correoElectronico" class="datos" required placeholder="mail@dominio.com">
             <label for="telefono">Télefono</label>
-            <input type="tel" id="telefono" class="datos">
+            <input type="tel" id="telefono" class="datos" required placeholder="00-000-000-00">
             <label for="mensaje">Mensaje</label>
-            <textarea cols="70" rows="10" id="mensaje" class="datos"></textarea>
+            <textarea cols="70" rows="10" id="mensaje" class="datos" required></textarea>
 
             <div>
                 <p>¿Como le gustaraia ser contactado?</p>
@@ -47,8 +47,8 @@
                 <label for="radio-Telefono"><input type="radio" value="Email" id="radio-Telefono"
                         name="contacto">Telefono</label>
 
-                <label for="radio-Waths"><input type="radio" value="Email" id="radio-Whats"
-                        name="contacto">Whats</label>
+                <label for="radio-Waths"><input type="radio" value="Email" id="radio-Whats" name="contacto"
+                        checked>Whats</label>
 
             </div>
             <div>
@@ -59,7 +59,7 @@
                 </select>
             </div>
 
-            <label class="label"><input type="checkbox" class="checkbox">Le gustaria recibir novedades</label>
+            <label class="label"><input type="checkbox" class="checkbox" checked>Le gustaria recibir novedades</label>
             <input type="submit" value="Enviar Formulario">
         </form>
     </main>
