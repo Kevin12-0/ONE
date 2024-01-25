@@ -118,10 +118,6 @@ footer {
     font-size: 13px;
 }
 
-main {
-    width: 940px;
-    margin: 0 auto;
-}
 
 form {
     margin: 40px 0;
@@ -199,6 +195,14 @@ th {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0 0 1cm;
     clear: left;
+    background-color: #5D6D7E;
+}
+
+.container {
+    padding: 3em 0;
+    background: white;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .container p {
@@ -215,6 +219,13 @@ th {
 
 .mapa {
     padding: 3cm 0;
+    /* degradada */
+    background: linear-gradient(white, #5D6D7E);
+}
+
+.mapa_contenido {
+    margin: 0 0 2em;
+    
 }
 
 .imagenDiferenciales {
@@ -240,6 +251,11 @@ th {
 .contenido-diferencial {
     width: 640px;
     margin: 0 auto;
+}
+
+.contenido-diferencial {
+    padding: 3em 0;
+    background: #5D6D7E;
 }
 
 .list-diferencial {
