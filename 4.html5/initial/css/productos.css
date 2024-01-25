@@ -303,3 +303,30 @@ p::first-line {
 .list::before {
     content: "★";
 }
+
+/* lienas query */
+
+@media screen and (max-width:480px) {
+
+    .box,
+    .container,
+    .mapa,
+    .list-diferencial,
+    .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    .list-diferencial,
+    .imagenDiferenciales {
+        width: 100%;
+    }
+}
