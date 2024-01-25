@@ -225,7 +225,7 @@ th {
 
 .mapa_contenido {
     margin: 0 0 2em;
-    
+
 }
 
 .imagenDiferenciales {
@@ -270,4 +270,12 @@ th {
 
 .list:first-child {
     font-weight: bold;
+}
+
+.titulo_principal:first-letter {
+    font-weight: bolder;
+}
+
+p::first-line {
+    font-style: italic;
 }
