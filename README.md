@@ -72,5 +72,25 @@ git add .
 ## comit a git
 
 ```
-git comit -m "Descripcion"
+git commit -m "Descripcion"
+```
+
+## agragar cambios
+
+```
+git push
+```
+
+- diff: cambios en un archivo
+
+## Diff
+
+```
+git diff nombre_archivo
+```
+
+## restarurar archivo
+
+```
+git restore --source fd8077d nombre_archivo
 ```
