@@ -94,3 +94,41 @@ git diff nombre_archivo
 ```
 git restore --source fd8077d nombre_archivo
 ```
+
+# Crear una rama a proyecto
+
+```
+git checkout -b nombre_rama
+```
+
+## Ver las ramas de un proyecto
+
+```
+git branch
+```
+
+## cambiar de rama
+
+```
+git switch nombre_rama
+```
+
+# Juntar las verciones de git
+
+1. dirigirce al main
+
+```
+git switch main
+```
+
+2. hacer merge con la rama donde se hicieron los cambios
+
+```
+git merge nombre_rama
+```
+
+3. mandar los cambios a github
+
+```
+git push origin main
+```
