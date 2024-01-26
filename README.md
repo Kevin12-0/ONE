@@ -50,3 +50,27 @@ git log -p
 ```
 
 - visualizar los cambios hechos historicamente al repopsitorio
+
+## verificar las actualizazciones
+
+```
+git pull
+```
+
+## estado de nuestro proyecto
+
+```
+git status
+```
+
+## agaregar archico
+
+```
+git add .
+```
+
+## comit a git
+
+```
+git comit -m "Descripcion"
+```
